@@ -1,0 +1,21 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Natural Language Processing
+nltk>=3.8.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Optional: Deep Learning (for advanced models)
+# transformers>=4.25.0
+# torch>=1.13.0
+
+# Utility
+jupyter>=1.0.0
+notebook>=6.5.0
