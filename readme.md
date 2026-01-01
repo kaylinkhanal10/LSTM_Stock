@@ -18,7 +18,7 @@ The system retrieves relevant news passages using a **BiLSTM-based dense retriev
 - [x] Extract factual answers with citation  
 - [x] Return **“not found”** when confidence is low (explicit requirement)
 
-> ⚠️ Transformer-based models are intentionally avoided to align with course constraints and emphasize traditional neural IR pipelines.
+
 
 ---
 
