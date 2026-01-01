@@ -1,3 +1,7 @@
 news.json
 processed_passages.json
 sharesansar_corpus.json
+data
+misc
+embeddings
+models
