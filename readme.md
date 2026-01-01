@@ -201,44 +201,4 @@ Copy code
 ├── week4/   # End-to-end inference
 │
 └── README.md
-10. Known Limitations
-Lexical Sensitivity
 
-Retriever is trained on titles, not natural questions
-
-Paraphrased questions may fail to retrieve correct passages
-
-Low Recall
-
-LSTM retriever with static embeddings lacks semantic understanding
-
-Extractive Only
-
-Cannot synthesize answers
-
-Limited to spans present in passages
-
-Distant Supervision Noise
-
-Reader training labels may be imperfect
-
-CPU-only Training
-
-Slower training and limited scalability
-
-11. Possible Improvements
-If constraints were relaxed:
-
-Replace retriever with DPR / BERT
-
-Use contextual embeddings
-
-Train retriever on QA pairs
-
-Add hard negative mining
-
-Replace reader with BERT QA
-
-Add numeric reasoning & normalization
-
-Improve confidence calibration
