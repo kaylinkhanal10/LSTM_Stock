@@ -117,6 +117,10 @@ model = ReaderModel(
     hidden=128
 ).to(DEVICE)
 
+model.load_state_dict(
+    torch.load("../models/reader_bilstm_attn_squad.pt", map_location=DEVICE)
+)
+
 optimizer = torch.optim.Adam(model.parameters(), lr=LR)
 criterion = nn.CrossEntropyLoss()
 
