@@ -21,14 +21,15 @@ PASSAGES_FILE = "../data/passages_trainval.json"
 WORD2IDX_FILE = "../models/word2idx.json"
 
 RETRIEVER_MODEL = "../models/retriever_bilstm.pt"
-READER_MODEL    = "../models/reader_bilstm_attn.pt"
+# READER_MODEL    = "../models/reader_bilstm_attn.pt"
+READER_MODEL    = "../models/reader_bilstm_attn_squad.pt"
 
 EMB_DIM = 100
 HIDDEN_DIM = 128
 
 TOP_K = 20
 TOP_M = 5
-CONF_THRESH = 0.25
+CONF_THRESH = 0.05
 MAX_LEN = 300
 
 DEVICE = torch.device("cpu")
